@@ -1,7 +1,3 @@
-Sure! Here's a concise set of **JavaScript notes in Markdown format** that you can use for study or documentation:
-
----
-
 # 📘 JavaScript Notes
 
 ## 🔹 Introduction
