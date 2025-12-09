@@ -55,6 +55,7 @@ document.querySelector("div").style.backgroundColor = "#eee";
 
 
 **4. Creating and Adding Elements**
+
 let li = document.createElement("li");
 
 li.textContent = "New List Item";
