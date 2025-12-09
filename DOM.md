@@ -27,6 +27,7 @@ Remove elements
 Handle events (clicks, inputs, keypresses, etc.)
 
 🔍 Essential DOM Methods
+
 **1. Selecting Elements**
 
 document.getElementById("header-id");
