@@ -27,37 +27,52 @@ Remove elements
 Handle events (clicks, inputs, keypresses, etc.)
 
 🔍 Essential DOM Methods
-1. Selecting Elements
+**1. Selecting Elements**
 
 document.getElementById("header-id");
+
 document.getElementsByClassName("Container");
+
 document.getElementsByTagName("p");
 
+document.querySelector(".items-container");// first match
 
-document.querySelector(".items-container");      // first match
 document.querySelectorAll("li");                 // all matches
 
-2. Changing Content
+**2. Changing Content**
 
 document.getElementById("header-id").textContent = "New Heading!";
+
 document.querySelector("p").innerHTML = "<b>Updated paragraph</b>";
 
-3. Changing Styles
+
+**3. Changing Styles**
    
 document.querySelector("h2").style.color = "blue";
+
 document.querySelector("div").style.backgroundColor = "#eee";
 
-5. Creating and Adding Elements
+
+**4. Creating and Adding Elements**
 let li = document.createElement("li");
+
 li.textContent = "New List Item";
+
 document.querySelector(".items-container").appendChild(li);
 
-6. Removing Elements
+
+**5. Removing Elements**
+
 document.querySelector("h3").remove();
 
-7. Handling Events
+
+**6. Handling Events**
+
 document.querySelector("h2").addEventListener("click", function() {
+
     alert("You clicked on H2!");
+    
+
 });
 
 🎯 In Simple Words
